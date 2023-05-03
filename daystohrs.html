@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Days to hours converter</title>
+</head>
+<body bgcolor="beige">
+<h2>Days to hours</h2>
+<input type="text" id="id3" placeholder="Enter amount of days"><br>
+<input type="submit" value="Compute" onclick="myFunction3()"><br>
+<p id="answer3"></p>
+<script>
+function myFunction3() {
+var num1 = document.getElementById('id3').value;
+var num2 = 24;
+var answer = Number(num1) * Number(num2);
+document.getElementById('answer3').innerHTML = "The result in hours is " + answer;
+}
+</script>
+</body>
+</html>
